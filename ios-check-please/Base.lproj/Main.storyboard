@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DHH-uj-eYj">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckImage" translatesAutoresizingMaskIntoConstraints="NO" id="DHH-uj-eYj">
                                 <rect key="frame" x="20" y="28" width="560" height="552"/>
                             </imageView>
                         </subviews>
@@ -39,4 +39,7 @@
             <point key="canvasLocation" x="233" y="479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CheckImage" width="274" height="267"/>
+    </resources>
 </document>
