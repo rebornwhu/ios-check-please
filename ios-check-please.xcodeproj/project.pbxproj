@@ -16,6 +16,7 @@
 		89FC40541C4AF1BB0004833A /* ios_check_pleaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC40531C4AF1BB0004833A /* ios_check_pleaseUITests.swift */; };
 		89FC40621C4AF1E00004833A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40611C4AF1E00004833A /* .gitignore */; };
 		89FC40641C4AF2560004833A /* CGPointUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC40631C4AF2560004833A /* CGPointUtils.swift */; };
+		89FC40661C4AF2C60004833A /* CheckMarkRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC40651C4AF2C60004833A /* CheckMarkRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		89FC40551C4AF1BB0004833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89FC40611C4AF1E00004833A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		89FC40631C4AF2560004833A /* CGPointUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointUtils.swift; sourceTree = "<group>"; };
+		89FC40651C4AF2C60004833A /* CheckMarkRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				89FC40331C4AF1BB0004833A /* AppDelegate.swift */,
 				89FC40351C4AF1BB0004833A /* ViewController.swift */,
+				89FC40651C4AF2C60004833A /* CheckMarkRecognizer.swift */,
 				89FC40631C4AF2560004833A /* CGPointUtils.swift */,
 				89FC40371C4AF1BB0004833A /* Main.storyboard */,
 				89FC403A1C4AF1BB0004833A /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89FC40361C4AF1BB0004833A /* ViewController.swift in Sources */,
+				89FC40661C4AF2C60004833A /* CheckMarkRecognizer.swift in Sources */,
 				89FC40341C4AF1BB0004833A /* AppDelegate.swift in Sources */,
 				89FC40641C4AF2560004833A /* CGPointUtils.swift in Sources */,
 			);
